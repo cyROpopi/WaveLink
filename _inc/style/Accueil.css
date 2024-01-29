@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+main{
+    display: flex;   
+    height: 10vh;
+    margin: 0.3vw;
+}
+
+div{
+    background-color: #414141;
+    height: 80vh;
+    margin-right: 1vw;
+    border-radius: 0.8vw;
+    width: 50vw;
+}
+
+#playlist{
+    width: 25vw;
+}
+
+header{
+    background-color: #414141;
+    height: 10vh;
+    margin: 0.3vw;
+    border-radius: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2{
+    color: white ;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100em;
+}
+
+li{
+    list-style-type: none ;
+}
+
+input{
+    border-radius: 1vw;
+    color :#414141;
+    width: 25vw;
+    height: 5vh;
+}
