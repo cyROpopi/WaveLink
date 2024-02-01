@@ -1,0 +1,19 @@
+:
+Chanson : idChanson, nomChanson
+Fait_Partie, 0N Playlist, 0N Chanson
+Playlist : idPlaylist, nomPlaylist
+
+Artistes : idArtistes, nomArtistes, imgArtistes
+Contient, 1N Album, 11 Chanson 
+:
+Cree, 11 Playlist, 0N Utilisateur
+
+Ecrit, 0N Artistes, 11 Album
+Album : idAlbum, nomAlbum, anneeSortie, imgAlbum
+Noter, 11 Utilisateur, 11 Album: note
+Utilisateur : idUtilisateur, nomUtilisateur, imgUtilisateur
+
+:
+Appartient, 0N Genre, 1N Album
+Genre : idGenre, nomGenre
+:
